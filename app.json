@@ -1,0 +1,49 @@
+{
+  "name": "Broken X String Gen Bot",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+  "logo": "https://telegra.ph/file/91c6683a0074d9dce03c1.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram",
+    "telethon"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A Bot's token from Botfather",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Fill your user id here. (Must be integer)",
+      "value": "",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "Get this value from cloud.mongodb.com",
+      "value": "",
+      "required": true
+    },
+    "MUST_JOIN": {
+      "description": "",
+      "value": "",
+      "required": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
